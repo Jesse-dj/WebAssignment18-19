@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="HTML,CSS,Opdracht">
+	<meta name="author" content="Jesse de Jonge">
+	<title>Opdracht Webmarkup</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
+</head>
+<body id="back-image">
+<video loop muted autoplay>
+ <source src="movie/background.mp4" type="video/mp4">
+</video>
+<header>
+<a id="logo" href="index.html">
+	<h1>COMPANY NAME</h1>
+</a>
+<nav id="bar">
+    <a id="Home" href="index.html">Home</a>
+    <a id="Product" href="product.html">Product</a>
+    <a id="Blog" >Blog</a>
+</nav>
+<h2>Contact</h2>
+</header>
+<!--Beginning webform-->
+<section id="middle">
+	<aside>
+	 <h3><strong>More information</strong></h3>
+    </aside>
+<form action="nowhere.php" method="post">
+	<fieldset id="topic">
+		<label >Select topic</label>
+		<select id="choose">
+			<option value="general">General inquiries</option>
+			<option value="press">Press relations</option>
+			<option value="recruitement">Recruitement</option>
+		</select>
+	</fieldset>
+	<fieldset class="contactFormFieldset">
+		<input
+				type="text"
+				name="contactFormName"
+				placeholder="Your name.."
+		/>
+	</fieldset>
+	<fieldset class="contactFormFieldset">
+		<input
+				type="email"
+				name="email"
+				placeholder="Your email.."
+		/>
+	</fieldset>
+	<fieldset>
+		<textarea
+				rows="7"
+				cols="40"
+				name="message"
+				placeholder="Write something.."
+		></textarea>
+	</fieldset>
+	<input  id="submit" 
+			type="submit"
+			value="Submit"
+	/>
+</form>
+</section>
+<footer>
+© 2018 - Jesse de Jonge - Inholland
+</footer> 
+</body>
+</html>
