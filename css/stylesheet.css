@@ -1,0 +1,197 @@
+/*Global Page*/
+@font-face{
+	font-family:"Action Comics";
+	src:url('../fonts/Action Comics.tff');
+}
+
+header{	
+	text-align:center;
+	font-family:Arial;
+}
+#logo{
+	background-image:url('../img/companylogoBG.jpg');
+	background-position:center;
+	background-size:cover;
+	float:initial;
+	display:block;
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	height:200px;
+    text-align:center;
+	font-family:"Action Comics","Berlin Sans FB","Times New Roman";
+	font-size:1.63em;
+	font-weight:bold;
+	color:white;
+	text-shadow:
+	3px 0px black,
+	0px 3px black,
+	0px -3px black,
+    -3px 0px black;
+}
+#bar{
+	margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+    width:1020px;
+	height:50px;
+	background-color:#707070;
+}
+a{
+	text-decoration:none;
+	font-size:1.875em;
+	font-family:'Arial',"Times New Roman";
+	text-transform:uppercase;
+	color:#FFF;
+	background:none;
+	border:none;
+	width:170px;
+	padding:30px;
+	line-height:50px;
+}
+@media screen and (max-width: 992px){
+	#back-image{
+		background-image: url('../img/background.jpeg');
+		background-position:center center;
+		background-size:cover;
+		background-repeat:no-repeat;
+		float:initial;
+		height:1280px;
+		width:auto;
+		margin:auto;
+		margin-left:auto;
+		margin-right:auto;	
+	}
+}
+footer{	
+    font-size:2em;
+	text-align:center;
+	font-family:Arial;
+	color:#FFF;
+	background-color:#000;
+    line-height:60px;
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	height:60px;
+	width:1020px;
+}
+#middle{
+	font-family:Arial,"Times New Roman";
+	font-size:2em;
+	color:#707070;
+	background-color:#FFF;
+	background-position:center;
+	height:auto;
+	width:1020px;
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+video{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+h2{
+	color:#FFF;
+	font-size:5.4em;
+	text-align:center;
+	font-family:Arial,"Times New Roman";
+	padding:30px;	
+	background-color:#2699fb;
+	width:960px;
+	height:auto;
+	margin:auto;
+	text-transform:uppercase;
+	font-weight:lighter;
+}
+/*End Global Page*/
+/*Index page*/
+img{
+	background-position:center center;
+	background-size:cover;
+	display:block;
+	float:initial;
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	width:1020px;
+	height:500px		
+}	
+/*End Index Page*/
+/*Product Page*/
+.imgstyle{
+	background-position:Center;
+	float:initial;
+	height:200px;
+	width:320px;
+	margin:7px;
+}
+@media screen and (max-width: 920px){
+.imgstyle{
+	background-position:Center;
+	float:initial;
+	height:50px;
+	width:80px;
+	margin:7px;
+	}
+}
+/*End Product page*/
+/*Contact Page*/
+fieldset{
+	margin-left:70px;
+	margin-right:70px;
+	border:0px;
+}
+input,#topic,#submit{
+	width:800px;
+	height:50px;
+	border:2px Solid #AAAAAA;
+	padding:5px;
+}
+textarea{
+	width:800px;
+	height:150px;
+	border:2px Solid #AAAAAA
+}
+#submit,#topic{
+	margin-left:95px;
+	margin-right:70px;
+}
+#submit{
+	font-size:1.2em;
+	color:#FFF;
+	background-color:#2699fb;
+	margin-bottom:30px;
+}
+::placeholder{
+	font-family:'Arial',"Times New Roman";
+	font-size:2em;
+	color:#707070;
+	padding:5px;
+	font-weight:lighter;	
+}
+select{
+	font-size:1em;
+	color:#707070;
+	border:2px Solid #AAAAAA;
+	width:525px;
+	height:40px;
+	margin-left:80px;
+}
+h3{
+	color:#444444;
+	font-weight:normal;
+	margin-top:0px;
+    padding:30px;
+	padding-bottom:0px;
+}
+/*End Contact Page*/
